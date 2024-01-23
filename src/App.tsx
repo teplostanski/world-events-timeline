@@ -1,5 +1,7 @@
-function App() {
-  return <>World Events Timeline</>;
-}
+import MainPage from "./pages/Main/MainPage";
+
+const App = function () {
+  return <MainPage />;
+};
 
 export default App;

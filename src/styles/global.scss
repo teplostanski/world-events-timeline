@@ -1,0 +1,20 @@
+// Global elements //
+
+@import "/src/styles/variables.scss";
+
+html {
+  font-size: 16px;
+  // @media (max-width: ($media-d+px)) {
+  //   font-size: resize-multiplier(16, $media-d, 1.1);
+  // }
+  // @media (max-width: ($media-ds+px)) {
+  //   font-size: 13px;
+  // }
+}
+body {
+  font-family: var(--font-main);
+  font-size: inherit;
+  background-color: var(--color-background);
+  color: var(--color-primary);
+  fill: var(--color-primary);
+}
