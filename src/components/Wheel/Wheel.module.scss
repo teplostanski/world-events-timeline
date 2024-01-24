@@ -152,6 +152,13 @@
     &:last-child {
       color: var(--color-accent3);
     }
+    @media (max-width: ($bp-tablet+px)) {
+      font-size: 9.5em;
+    }
+  }
+  @media (max-width: ($bp-tablet+px)) {
+    left: calc(50% - em(400));
+    width: em(800);
   }
   @media (max-width: ($bp-mobile+px)) {
     position: static;

@@ -6,7 +6,7 @@ interface TitleProps extends ComponentPropsWithoutRef<"div"> {}
 const Title = function ({ className = "", children, ...props }: TitleProps) {
   return (
     <div className={`${className} ${classes.wrapper}`} {...props}>
-      <h1>{children}</h1>
+      <h1 className={classes.title}>{children}</h1>
     </div>
   );
 };
