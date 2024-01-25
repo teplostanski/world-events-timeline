@@ -1,27 +1,75 @@
-# React + TypeScript + Vite
+# 🌍 Временная шкала мировых событий
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Интерактивное веб-приложение для визуализации исторических событий в различных сферах: кино, искусство, наука, литература, музыка и спорт.
 
-Currently, two official plugins are available:
+![Демо приложения](./demo.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Демо
 
-## Expanding the ESLint configuration
+[world-events-timeline.vercel.app](https://world-events-timeline.vercel.app/)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## 🚀 Особенности
 
-- Configure the top-level `parserOptions` property like this:
+- **Интерактивное колесо навигации** для переключения между категориями событий
+- **Плавные анимации** с использованием кривых Безье
+- **Адаптивный дизайн** для desktop и mobile устройств
+- **Современный минималистичный интерфейс**
+- **Типизация TypeScript**
+- **Модульная архитектура**
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
+## 🛠 Технологии
+
+- **React** - для построения пользовательского интерфейса
+- **TypeScript** - для типобезопасности
+- **SCSS Modules** - для стилизации компонентов
+- **Swiper** - для слайдера событий
+- **Vite** - для сборки проекта
+- **Vitest** - для тестирования
+
+## 📱 Адаптивность
+
+Приложение адаптировано под различные устройства:
+
+- Desktop (1920px и выше)
+- Tablet (до 860px)
+- Mobile (до 730px)
+
+## ✅ Тестирование
+
+Проект покрыт юнит-тестами с использованием Vitest:
+
+- Тесты для утилит и хелперов
+- Тесты для бизнес-логики
+- Тесты для форматирования данных
+
+## 🚀 Запуск проекта
+
+1. Клонируйте репозиторий:
+
+```bash
+git clone https://github.com/teplostanski/world-events-timeline.git
 ```
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+2. Установите зависимости:
+
+```bash
+npm install
+```
+
+3. Запустите проект:
+
+```bash
+npm run dev
+```
+
+4. Откройте [http://localhost:5173](http://localhost:5173) в браузере
+
+## 🧪 Запуск тестов
+
+```bash
+# Запуск тестов
+npm run test
+
+# Проверка покрытия кода тестами
+npm run test:coverage
+```
