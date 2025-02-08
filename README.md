@@ -6,7 +6,7 @@
 
 ## Демо
 
-[world-events-timeline.vercel.app](https://world-events-timeline.vercel.app/)
+[teplostanski.github.io/world-events-timeline](https://teplostanski.github.io/world-events-timeline/)
 
 ## 🚀 Особенности
 
